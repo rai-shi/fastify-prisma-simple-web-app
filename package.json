@@ -1,0 +1,26 @@
+{
+  "name": "fastify-prisma",
+  "packageManager": "yarn@4.5.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^9.0.2",
+    "@fastify/swagger": "^9.4.0",
+    "@fastify/swagger-ui": "^5.2.0",
+    "@prisma/client": "^6.1.0",
+    "fastify": "^5.2.0",
+    "fastify-swagger": "^5.2.0",
+    "fastify-zod": "^1.4.0",
+    "zod": "^3.24.1",
+    "zod-to-json-schema": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/fastify-jwt": "^0.8.3",
+    "@types/node": "^22.10.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
